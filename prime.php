@@ -1,14 +1,19 @@
 <?php
 //check if prime or not 
-$a=22;
+$a=9;
 $t=$a;
+if($a<=0){
+    echo"$a is not prime number";
+    exit;
+}
 $count=0;
 for($i=1;$i<=$t;$i++){
-    if($t%2==0){
+    if($t%$i==0){
         $count ++;
+        break; // no need to continue if divisible
     }
 }
-if($count==0){
+if($count==2){
     echo"the number $a is prime.";
 }
 else{
