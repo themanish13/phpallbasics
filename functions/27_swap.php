@@ -1,11 +1,13 @@
+
 <?php
-//swapping two vars using functions
-function sum($a,$b){
-    echo"before swap values are a has $a and b has $b\n";
-    $c=$a;
-    $a=$b;
-    $b=$c;
-    echo "The value of a is $a and b is $b\n";
+//swapping two numbers
+function swap($a, $b){
+    echo "Before swap: a = $a, b = $b\n";
+    $temp = $a;
+    $a = $b;
+    $b = $temp;
+    echo "After swap: a = $a, b = $b\n";
 }
-sum(5,9);
+
+swap(5, 9);
 ?>
