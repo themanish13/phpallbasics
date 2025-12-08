@@ -6,6 +6,6 @@ if($a==$rev){
 echo"the string $rev is palindrome";
 }
 else{
- echo"the string $rev is not palindrome";
+ echo"the string $a is not palindrome";
 }
 ?>

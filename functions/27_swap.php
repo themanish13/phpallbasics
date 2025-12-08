@@ -8,6 +8,5 @@ function swap($a, $b){
     $b = $temp;
     echo "After swap: a = $a, b = $b\n";
 }
-
 swap(5, 9);
 ?>
